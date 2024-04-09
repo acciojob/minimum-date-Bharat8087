@@ -1,5 +1,7 @@
 function minDate(dates) {
-  //write you code here
+  var sorted_dates = dates.slice().sort();
+  
+  return sorted_dates[0];
 }
 
 // Do not change the code
